@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Java基础语法（中）, 七">
+    <meta name="keywords" content="复盘, 七">
     <meta name="description" content="不许欺负张馨竹">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Java基础语法（中） | 七</title>
+    <title>复盘 | 七</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Java基础语法（中）</h1>
+                    <h1 class="description center-align post-title">复盘</h1>
                 </div>
             </div>
         </div>
@@ -431,8 +431,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/">
-                                <span class="chip bg-color">循环结构</span>
+                            <a href="/tags/%E7%94%9F%E6%B0%94/">
+                                <span class="chip bg-color">生气</span>
                             </a>
                         
                     </div>
@@ -443,8 +443,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Java%E7%AC%94%E8%AE%B0/" class="post-category">
-                                Java笔记
+                            <a href="/categories/%E6%9C%AD%E8%AE%B0/" class="post-category">
+                                札记
                             </a>
                         
                     </div>
@@ -456,7 +456,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-09-30
+                    2021-09-26
                 </div>
                 
 
@@ -477,24 +477,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h1><h2 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	For循环的四个结构</span></span><br><span class="line"><span class="comment">	①初始化条件</span></span><br><span class="line"><span class="comment">	②循环条件 ---》boolean条件</span></span><br><span class="line"><span class="comment">	③循环体</span></span><br><span class="line"><span class="comment">	④迭代条件</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ForTest</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        <span class="keyword">for</span>(①;②;④)&#123;</span><br><span class="line">            ③</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	①初始化条件</span></span><br><span class="line"><span class="comment">	②循环条件 ---》boolean条件</span></span><br><span class="line"><span class="comment">	③循环体</span></span><br><span class="line"><span class="comment">	④迭代条件</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">①</span><br><span class="line"><span class="keyword">while</span>(②)&#123;</span><br><span class="line">    ③；</span><br><span class="line">    ④；</span><br><span class="line">&#125;</span><br><span class="line">说明：写While循环千万小心不要丢了迭代条件。</span><br></pre></td></tr></table></figure>
-
-<h2 id="do-while循环"><a href="#do-while循环" class="headerlink" title="do_while循环"></a>do_while循环</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	①初始化条件</span></span><br><span class="line"><span class="comment">	②循环条件 ---》boolean条件</span></span><br><span class="line"><span class="comment">	③循环体</span></span><br><span class="line"><span class="comment">	④迭代条件</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">①</span><br><span class="line"><span class="keyword">do</span>&#123;</span><br><span class="line">    ③；</span><br><span class="line">    ④；</span><br><span class="line">&#125;<span class="keyword">while</span>(②);</span><br><span class="line"><span class="comment">//执行过程：1--&gt;3--&gt;4--&gt;2--&gt;3--&gt;4--&gt;2--&gt;3--&gt;4-- -- --&gt;2;</span></span><br><span class="line"><span class="comment">//do_whlie至少执行一次循环体；</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="嵌套循环"><a href="#嵌套循环" class="headerlink" title="嵌套循环"></a>嵌套循环</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	将一个循环结构A声明在另一个循环体B中；</span></span><br><span class="line"><span class="comment">	外层循环控制行数，内层控制列数；</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">    九九乘法表</span></span><br><span class="line"><span class="comment">    1*1=1</span></span><br><span class="line"><span class="comment">    2*1=2 2*2=4</span></span><br><span class="line"><span class="comment">    ---</span></span><br><span class="line"><span class="comment">    9*1=9 9*2=18 ------9*9=81</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">NineNineTable</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>;i &lt;= <span class="number">9</span>;i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">1</span>;j &lt;= i;j++)&#123;</span><br><span class="line">                System.out.print(i + <span class="string">&quot; * &quot;</span> + j + <span class="string">&quot; = &quot;</span> + (i*j) + <span class="string">&quot; &quot;</span> );</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	100以内的质数</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">PrimeNumberTest</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        <span class="keyword">boolean</span> isFlag = <span class="keyword">true</span>;</span><br><span class="line">        <span class="keyword">long</span> start = System.currentTimeMillis();</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">2</span>;i &lt;= <span class="number">100000</span>;i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">2</span>;j &lt;= Math.sqrt(i);j++)&#123;</span><br><span class="line">                <span class="keyword">if</span>(i % j == <span class="number">0</span>)&#123;</span><br><span class="line">                    isFlag = <span class="keyword">false</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(isFlag == <span class="keyword">true</span>)&#123;</span><br><span class="line">                System.out.println(i);</span><br><span class="line">            &#125;</span><br><span class="line">            isFlag = <span class="keyword">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">long</span> end = System.currentTimeMillis();</span><br><span class="line">        System.out.println(<span class="string">&quot;所花费的时间&quot;</span> + (end - start));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">PrimeNumberTest</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        <span class="keyword">long</span> start = System.currentTimeMillis();</span><br><span class="line">        label:<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">2</span>;i &lt;= <span class="number">100</span>;i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">2</span>;j &lt;= Math.sqrt(i);j++)&#123;</span><br><span class="line">                <span class="keyword">if</span>(i % j == <span class="number">0</span>)&#123;</span><br><span class="line">                    <span class="keyword">continue</span> label;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">                System.out.println(i);</span><br><span class="line">            &#125;</span><br><span class="line">        <span class="keyword">long</span> end = System.currentTimeMillis();</span><br><span class="line">        System.out.println(<span class="string">&quot;所花费的时间&quot;</span> + (end - start));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	break和continue关键字的适用</span></span><br><span class="line"><span class="comment">			  使用范围		     循环中使用</span></span><br><span class="line"><span class="comment">	break:	 Switch-case		结束当前循环</span></span><br><span class="line"><span class="comment">			  循环结构中</span></span><br><span class="line"><span class="comment">	</span></span><br><span class="line"><span class="comment">	continue： 循环结构中			结束此次循环	</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">BreakContinueTest</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= <span class="number">10</span>;i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(i % <span class="number">4</span> ==<span class="number">0</span>)&#123;</span><br><span class="line">                <span class="comment">//break;1 2 3</span></span><br><span class="line">                <span class="keyword">continue</span>; </span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println(i);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">        label:<span class="keyword">for</span>(<span class="keyword">int</span> i =<span class="number">1</span>;i &lt;= <span class="number">4</span>;i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j =<span class="number">1</span>;j &lt;=<span class="number">10</span>;j++)&#123;</span><br><span class="line">                <span class="keyword">if</span>(j % <span class="number">4</span> == <span class="number">0</span>)&#123;</span><br><span class="line">                    <span class="comment">//break;  // break label  :结束指定循环结构(可以给循环取个标签，然后进行指定)</span></span><br><span class="line">                    <span class="keyword">continue</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                System.out.print(j);</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
+                <p>首先，就不应该看逼站视频然后还发送给别人，其次被发现之后其实可以好好认错道歉就不会导致后面\<br>的事情发生。然后当时不但没有好好认错，后面还凶你了一下下，觉得影响到我了，\<br>就导致你不开心最后就你就开始生气了，然后我还骂你，中午的时候就应该直接给你买一份饭，说不定你下午<br>也不会这样了，最后晚上去吃饭的时候还不小心给你吧裤子搞脏了，这不虽然弄\<br>脏衣服的人是我，但是把我觉得把我比裤子重要，反正弄脏了大不了就去洗一下（当时应该给你多擦一下）。<br>这个时候吧其实我已经不想说话了（因为在说话我怕我就要开始说一些气话了，\<br>后面证明果然就失去理智了（一般这个时候就不能再刺激我了，还一直让我说说说，我一说就炸我）），\<br>差不多勒就是这么一个情况。\<br>    最后总结一下哈，其实不是不想道歉（只是不想一遇到事情，让你不高兴了我就开始道歉，因为我不能失<br>去自我，每个人都有原则（就比如这件事情，但是你有也不说，就说烦恶心，\<br>你就直接跟我说你觉得有女朋友的人这样做你很不开心，是你的底线，但是你也不说，就开始一个人往楼下跑，你想一下当时我是不知道你为为什么反应这么大，然后我就觉得你在小题大作），\<br>后面打电话的时候骂你确实是我的不对哈，主要是我当时莫名奇妙），反正我还是觉得导火索是当时凶了你一<br>下然后回办公室学习，然后导致事情变得非常严重，我觉得要是下次生气了还是需\<br>要先冷静一下，不然容易上头。</p>
 
                 
             </div>
@@ -521,7 +504,7 @@
                     </i>
                     </span>
                 <span class="reprint-info">
-                    <a href="https://sakura994479727.github.io/2021/09/30/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%EF%BC%88%E4%B8%AD%EF%BC%89/">https://sakura994479727.github.io/2021/09/30/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%EF%BC%88%E4%B8%AD%EF%BC%89/</a>
+                    <a href="https://sakura994479727.github.io/2021/09/26/java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%AC%94%E8%AE%B0/2020927/">https://sakura994479727.github.io/2021/09/26/java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%AC%94%E8%AE%B0/2020927/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -559,8 +542,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/">
-                                    <span class="chip bg-color">循环结构</span>
+                                <a href="/tags/%E7%94%9F%E6%B0%94/">
+                                    <span class="chip bg-color">生气</span>
                                 </a>
                             
                         </div>
@@ -736,13 +719,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/05/Yolo%E7%AC%94%E8%AE%B0/">
+                <a href="/2021/09/30/java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%AC%94%E8%AE%B0/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%EF%BC%88%E4%B8%AD%EF%BC%89/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="YOLO V3网络结构">
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="Java基础语法（中）">
                         
-                        <span class="card-title">YOLO V3网络结构</span>
+                        <span class="card-title">Java基础语法（中）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -753,14 +736,14 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-10-05
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-09-30
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/YOLO/" class="post-category">
-                                    YOLO
+                            <a href="/categories/Java%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    Java笔记
                                 </a>
                             
                             
@@ -770,8 +753,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/yolo-v3/">
-                        <span class="chip bg-color">yolo v3</span>
+                    <a href="/tags/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/">
+                        <span class="chip bg-color">循环结构</span>
                     </a>
                     
                 </div>
@@ -785,13 +768,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/09/26/2020927/">
+                <a href="/2021/09/26/java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%AC%94%E8%AE%B0/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95(%E4%B8%8B)/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="复盘">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="Java基础语法（下）">
                         
-                        <span class="card-title">复盘</span>
+                        <span class="card-title">Java基础语法（下）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -808,8 +791,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%9C%AD%E8%AE%B0/" class="post-category">
-                                    札记
+                            <a href="/categories/Java%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    Java笔记
                                 </a>
                             
                             
@@ -819,8 +802,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%94%9F%E6%B0%94/">
-                        <span class="chip bg-color">生气</span>
+                    <a href="/tags/%E6%95%B0%E7%BB%84/">
+                        <span class="chip bg-color">数组</span>
                     </a>
                     
                 </div>
